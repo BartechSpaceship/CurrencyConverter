@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(MainActivity.this, "$" + yuanAmount.toString(), Toast.LENGTH_SHORT).show();
 
+        //ToDo add second Toast
 
         Log.i("amount", editTextConverter.getText().toString() );
 
